@@ -33,9 +33,9 @@ function Hungama() {
   {
     var categories = 
       [
-          ["mumbai", "delhi", "bangalore", "hyderabad", "ahmedabad", "chennai", "kolkata"],
-          ["surat", "pune", "jaipur", "lucknow", "kanpur"],
-          ["nagpur", "indore", "bhopal", "patna", "vadodara"]
+          ["Dehradun", "Allahabad", "bangalore", "hyderabad", "ahmedabad", "Jabalpur", "kolkata"],
+          ["Guwahati", "Chandigarh", "Bhubaneswar", "lucknow", "kanpur"],
+          ["Ghaziabad", "Visakhapatnam", "Aurangabad", "Udaipur", "vadodara"]
       ];
       var chosenCategory = categories[Math.floor(Math.random() * categories.length)];
       word = chosenCategory[Math.floor(Math.random() * chosenCategory.length)];
