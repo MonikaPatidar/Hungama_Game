@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* .container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+} */
+.Heading{
+  position: fixed;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+}
+.ReplaceValue{
+  position: fixed;
+  left: 48%;
+ margin-top:26%;
+  transform: translate(-50%, -50%);
+}
+.Keyboard{
+  position: fixed;
+  left: 50%;
+ margin-top:40%;
+  transform: translate(-50%, -50%);
+}
+.keyboardButton{
+  height:12%;
+  width:8%;
+  margin:0.2%;
+}
+.counterClock{
+  position:fixed;
+  left:30%;
+  top:30%;
+  transform: translate(-50%, -50%);
+}
+.ResetButton_div{
+  position:fixed;
+  left:65%;
+  top:27%;
+  transform: translate(-50%, -50%);
+}
+.resetButton{
+  position:fixed;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.ShowLives{
+  position: fixed;
+  left: 48%;
+ margin-top:32%;
+  transform: translate(-50%, -50%);
+}
+.newGame{
+  position:relative;
+  left:115%;
+  top:2%;
+  transform: translate(-50%, -50%);
+}
+.Liveimage{
+  position:fixed;
+  left:48%;
+  top:30%;
+  height:35%;
+  width:22%;
+  transform: translate(-50%, -50%);
+  /* border:2px solid black; */
+}
+.DrawImage{
+  position:relative;
+  left:53%;
+  top:44%;
+  height:90%;
+  width:70%;
+  transform: translate(-50%, -50%);
+}
