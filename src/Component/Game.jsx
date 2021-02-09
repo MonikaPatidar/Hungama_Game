@@ -39,7 +39,6 @@ function Hungama() {
       ];
       var chosenCategory = categories[Math.floor(Math.random() * categories.length)];
       word = chosenCategory[Math.floor(Math.random() * chosenCategory.length)];
-      console.log(word)
       setWord(word);
       getReplaceworld()
   }
@@ -79,7 +78,6 @@ function Hungama() {
       return result;
   }
 
-  console.log(999, alphabate)
 
     const test = (event) =>
     {
@@ -115,7 +113,6 @@ function Hungama() {
           {
              replacedWord[i]=alphabate;
              setMatch(match+1);
-             console.log("match "+match);
           } 
         }
 
@@ -147,7 +144,7 @@ function Hungama() {
     {
       alert("you lost")
     }
-    // setDisable(true); 
+
   }
 
     const ResetWord=(e)=>
